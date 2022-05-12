@@ -1,0 +1,104 @@
+/* css */
+
+body {
+    margin: .5rem;
+    color: white;
+    background-color: #93b8d7;
+}
+
+nav a {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: .5em;
+    text-decoration: none;
+}
+
+nav #social-links {
+    display: none;
+}
+
+main {
+    text-align: center;
+    font-family: Kaushan Script ,fantasy ,papyrus;
+    margin-top: 23vh;
+}
+
+main h1 {
+    font-size: 4rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-top: 2em;
+}
+
+footer {
+    display: none;
+}
+
+@media only screen and (min-device-width: 598px) {
+
+    nav a {
+        color: white;
+        font-size: 2.5rem;
+        padding-right: .5em;
+        text-decoration: none;
+    }
+
+    nav #hamburger-menu {
+        display: none;
+    }
+    
+    nav #social-links {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) {
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url('../img/splash-md.jpg');
+    }
+
+    footer {
+        display: fixed; /* FIGURE THIS OUT */
+    }
+
+    main {
+        text-shadow: 1px 1px 1px #153c43;
+    }
+
+}
+
+@media only screen and (min-device-width: 992px) {
+
+    body {
+        background-image: url('../img/splash-lg.jpg');
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    main h1 {
+        font-size: 5rem;
+    }
+    
+    main h2 {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (min-device-width: 1200px) {
+
+    body {
+        background-image: url('../img/splash-xl.jpg');
+    }
+
+}
